@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+</head>
+<body>
+    <h1>Add</h1>
+    <button onclick="alert(Add(a,b))">Add</button>
+
+    <h1>Subtract</h1>
+    <button onclick="alert(Subtract(a,b))">Subtract</button>
+
+    <h1>Multiply</h1>
+    <button onclick="alert(Multiply(a,b))">Multiply</button>
+
+    <h1>Divide</h1>
+    <button onclick="alert(Divide(a,b))">Divide</button>
+
+
+    <script>
+        let a = 5;
+        let b = 10;
+        
+        function Add(a,b) {
+            return a + b;
+        }
+    
+        function Subtract(a, b) {
+            return a - b;
+        }
+        
+        function Multiply(a, b) {
+            return a * b;
+        }
+        
+        function Divide(a, b) {
+            return a / b;
+        }
+        
+        
+    </script>
+</body>
+</html>
